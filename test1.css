@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    background-color: #33a56c;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Style the header */
+header {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(15, 8, 8);
+}
+
+
+
+.main {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+
+}
+
+/* Style the list inside the menu */
+.ul {
+    list-style-type: none;
+    background-color: #0ee97c;
+    /* margin: 0%; */
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    background-color: #0ee97c;
+}
+
+.left {
+    float: left;
+    padding: 0%;
+    background-color: #33a56c;
+    height: 100%;
+    display: inline;
+    width: 55%;
+}
+.left h1{
+    font-size: 35px;
+}
+
+.right {
+    padding: 0%;
+    background-color: #33a56c;
+    height: 100%;
+    display: inline;
+    width: 45%;
+}
+.right h1{
+    font-size: 35px;
+}
+
+img {
+    /* border: 1px solid #ddd;
+    border-radius: 4px; */
+    padding: 0px;
+    width: 100px;
+
+}
+
+
+/* Style the footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 35px;
+    top: 0;
+    background-color: #0ee97c;
+    text-align: center;
+}
+.footer h1{
+    font-size: 35px;
+    background-color: #0ee97c;
+}
